@@ -16,6 +16,36 @@ npm install
 npm run dev
 ```
 
+The output example is as follows:
+
+```bash
+julio@julio-desktop:~/code/open-source/poms_ftf$ npm run dev
+
+> poms_ftf@1.0.0 dev
+> node main.js
+
+
+All Orders: 
+
+Client: undefined
+Products: 
+- Product 1: 2 x $10
+- Product 2: 1 x $20
+
+Total: $40
+==================================
+
+All Orders: 
+
+Client: undefined
+Products: 
+- Product 3: 3 x $30
+- Product 4: 4 x $40
+
+Total: $250
+==================================
+```
+
 ## Code Structure
 
 The project consists of the following core classes:
